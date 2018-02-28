@@ -85,7 +85,7 @@ test-all: vet
 	go test ./...
 
 package:
-	./scripts/build.py --package --platform=all --arch=all
+	./scripts/build.py --package --platform=linux --arch=amd64
 
 clean:
 	rm -f telegraf
